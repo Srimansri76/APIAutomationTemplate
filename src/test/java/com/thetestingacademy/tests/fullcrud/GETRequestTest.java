@@ -13,7 +13,7 @@ public class GETRequestTest {
         r.baseUri(APIConstants.BASE_URL);
         r.basePath(APIConstants.CREATE_GET_POST_URL_BOOKING);
         r.when().get();
-        r.then().statusCode(200);
+        r.then().statusCode(201);
 
     }
 }
